@@ -6,7 +6,8 @@ Color textColor = Color(0xff0D0140);
 Color secondaryTextColor = Color(0xff524B6B);
 Color buttonColor = Color(0xffE6E1FF);
 Color primaryButtonColor = Color(0xff130160);
-Color tncButtonColor = Color(0xff130160);
+Color tncButtonColor = Color(0xffFF9228);
+Color greyColor = Colors.grey;
 
 TextStyle whiteTextStyle = GoogleFonts.dmSans(
   color: WhiteColor,
@@ -22,6 +23,10 @@ TextStyle secondaryTextStyle = GoogleFonts.dmSans(
 
 TextStyle tncTextStyle = GoogleFonts.dmSans(
   color: tncButtonColor,
+);
+
+TextStyle greyTextStyle = GoogleFonts.dmSans(
+  color: greyColor,
 );
 
 FontWeight bold = FontWeight.bold;
